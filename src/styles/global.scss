@@ -7,6 +7,8 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
 body {
@@ -14,7 +16,7 @@ body {
 }
 
 .container {
-  border: 1px dotted red;
+  // border: 1px dotted red;
   margin: 0 auto;
   max-width: 1280px;
 }
@@ -22,7 +24,7 @@ body {
 section.pageSection {
   padding: 0 60px;
   min-height: 100vh;
-  border: 1px solid blue;
+  // border: 1px solid blue;
 
   &:nth-of-type(2),
   &:nth-of-type(4) {
@@ -31,14 +33,10 @@ section.pageSection {
   }
 
   section.pageContent {
-    border: 1px dotted red;
+    // border: 1px dotted red;
     min-height: 100vh;
     padding: 20px;
   }
-}
-
-h1 {
-  color: $clrDark;
 }
 
 aside {
@@ -46,26 +44,6 @@ aside {
   top: 50%;
   transform: translateY(-50%);
   right: 0;
-
-  nav {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    a {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 60px;
-      height: 60px;
-      text-decoration: none;
-      color: $clrGold;
-      font-size: 30px;
-
-      &:hover {
-        color: $clrGold-hover;
-      }
-    }
-  }
 }
 
 @media (max-width: 992px) {
@@ -80,7 +58,7 @@ aside {
     padding-right: 60px;
 
     section.pageContent {
-      padding-right: 0;
+      padding-right: 20px;
     }
   }
 }
@@ -102,12 +80,5 @@ aside {
     transform: translateY(0) translateX(50%);
     background: $clrDark;
     width: 100%;
-    nav {
-      height: 60px;
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
   }
 }

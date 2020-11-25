@@ -1,10 +1,15 @@
+import Home from "./components/views/Home/Home";
+
+const { default: Sidebar } = require("./components/features/Sidebar/Sidebar");
+
 function App() {
   return (
     <>
       <div className='container'>
-        <section id='start' className='pageSection'>
+        <Home />
+        {/* <section id='start' className='pageSection'>
           <section className='pageContent'>start</section>
-        </section>
+        </section> */}
         <section id='about' className='pageSection'>
           <section className='pageContent'>about</section>
         </section>
@@ -90,23 +95,7 @@ function App() {
         </section>
       </div>
       <aside>
-        <nav>
-          <a href='#start'>
-            <i className='far fa-star' />
-          </a>
-          <a href='#about'>
-            <i className='far fa-address-card'></i>
-          </a>
-          <a href='#skills'>
-            <i className='fas fa-star-half-alt'></i>
-          </a>
-          <a href='#portfolio'>
-            <i className='fas fa-briefcase'></i>
-          </a>
-          <a href='#contact'>
-            <i className='fas fa-envelope'></i>
-          </a>
-        </nav>
+        <Sidebar />
       </aside>
     </>
   );
