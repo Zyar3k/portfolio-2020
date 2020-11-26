@@ -1,0 +1,131 @@
+@import "../../../styles/global.scss";
+
+.skillsContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .skillsSection {
+    box-shadow: 20px 20px 8px $clrDark;
+    width: 200px;
+    height: 700px;
+    border: 1px dotted $clrDark;
+    transition: $transition;
+    background: $clrDark;
+    color: $clrLight;
+    overflow: hidden;
+
+    &:nth-of-type(2) {
+      border-right: 2px solid $clrLight;
+      border-left: 2px solid $clrLight;
+    }
+
+    h2 {
+      height: 10%;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: $transition;
+    }
+
+    .skillsWrapper {
+      height: 90%;
+
+      .skillBox {
+        display: flex;
+        position: relative;
+        i {
+          font-size: 50px;
+          background: $clrDark;
+          z-index: 1;
+          height: 100px;
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: $transition;
+        }
+        p {
+          opacity: 0;
+          font-weight: bold;
+          text-transform: uppercase;
+          position: absolute;
+          background: $clrLight;
+          color: $clrDark;
+          padding: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 24px;
+          transition: $transition;
+        }
+      }
+    }
+  }
+  .skillsSection:hover {
+    width: 500px;
+    border-right: 4px solid $clrLight;
+    box-shadow: 20px 20px 6px $clrGold;
+
+    &:nth-of-type(2) {
+      border-left: 4px solid $clrLight;
+    }
+    &:nth-of-type(3) {
+      border-right: unset;
+      border-left: 4px solid $clrLight;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    .skillsWrapper {
+      .skillBox {
+        i {
+          // color: blue;
+          &.fa-html5 {
+            color: #f16529;
+          }
+          &.fa-css3 {
+            color: #2965f1;
+          }
+          &.fa-sass {
+            color: #cd6799;
+          }
+          &.fa-bootstrap {
+            color: #553c7b;
+          }
+          &.fa-js {
+            color: #f0db4f;
+          }
+          &.fa-react {
+            color: #61dbfb;
+          }
+          &.fa-node {
+            color: #68a063;
+          }
+          &.fa-mdb {
+            color: #3fa037;
+          }
+          &.fa-git-alt {
+            color: #f34f29;
+          }
+          &.fa-npm {
+            color: #cc3534;
+          }
+          &.fa-yarn {
+            color: #2c8ebb;
+          }
+          &.fa-jira {
+            color: #0052cc;
+          }
+        }
+        p {
+          top: 50%;
+          transform: translate(200px, -50%);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
