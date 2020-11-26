@@ -24,6 +24,7 @@ body {
 section.pageSection {
   padding: 0 60px;
   min-height: 100vh;
+  position: relative;
   // border: 1px solid blue;
 
   &:nth-of-type(2),
@@ -44,6 +45,22 @@ aside {
   top: 50%;
   transform: translateY(-50%);
   right: 0;
+}
+
+.btnNext {
+  // background: red;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 80px;
+  text-decoration: none;
+  color: $clrGold;
+  transition: $transition;
+
+  &:hover {
+    color: $clrGold-hover;
+  }
 }
 
 @media (max-width: 992px) {

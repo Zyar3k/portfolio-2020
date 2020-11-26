@@ -13,6 +13,7 @@ nav {
     text-decoration: none;
     color: $clrGold;
     font-size: 30px;
+    transition: $transition;
 
     &:hover {
       color: $clrGold-hover;
