@@ -9,7 +9,6 @@
     box-shadow: 20px 20px 8px $clrDark;
     width: 200px;
     height: 700px;
-    border: 1px dotted $clrDark;
     transition: $transition;
     background: $clrDark;
     color: $clrLight;
@@ -82,7 +81,6 @@
     .skillsWrapper {
       .skillBox {
         i {
-          // color: blue;
           &.fa-html5 {
             color: #f16529;
           }
@@ -124,6 +122,145 @@
           top: 50%;
           transform: translate(200px, -50%);
           opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .skillsContent {
+    .skillsSection:hover {
+      .skillsWrapper {
+        .skillBox {
+          i {
+            width: 100px;
+          }
+          p {
+            transform: translate(100px, -50%);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .skillsContent {
+    flex-direction: column;
+
+    .skillsSection {
+      box-shadow: unset;
+      width: 100%;
+      height: unset;
+      margin: 10px 0;
+
+      &:nth-of-type(2) {
+        border-right: unset;
+        border-left: unset;
+      }
+
+      h2 {
+        height: unset;
+        padding: 10px;
+      }
+
+      .skillsWrapper {
+        height: unset;
+
+        &:last-of-type {
+          border-bottom: 6px solid $clrDark;
+        }
+
+        .skillBox {
+          position: unset;
+          i {
+            background: $clrLight;
+            border-left: 12px solid $clrDark;
+            border-top: 6px solid $clrDark;
+            border-bottom: 6px solid $clrDark;
+            z-index: 0;
+            height: unset;
+            width: 30%;
+            padding: 30px;
+            &.fa-html5 {
+              color: #f16529;
+            }
+            &.fa-css3 {
+              color: #2965f1;
+            }
+            &.fa-sass {
+              color: #cd6799;
+            }
+            &.fa-bootstrap {
+              color: #553c7b;
+            }
+            &.fa-js {
+              color: #f0db4f;
+            }
+            &.fa-react {
+              color: #61dbfb;
+            }
+            &.fa-node {
+              color: #68a063;
+            }
+            &.fa-mdb {
+              color: #3fa037;
+            }
+            &.fa-git-alt {
+              color: #f34f29;
+            }
+            &.fa-npm {
+              color: #cc3534;
+            }
+            &.fa-yarn {
+              color: #2c8ebb;
+            }
+            &.fa-jira {
+              color: #0052cc;
+            }
+          }
+          p {
+            opacity: 1;
+            position: unset;
+            background: $clrLight;
+            border-top: 6px solid $clrDark;
+            border-bottom: 6px solid $clrDark;
+            border-left: 20px solid $clrDark;
+            border-right: 20px solid $clrDark;
+            color: $clrDark;
+            padding: 0;
+            top: unset;
+            transform: unset;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex: 1;
+            font-size: 18px;
+            transition: unset;
+          }
+        }
+      }
+    }
+    .skillsSection:hover {
+      width: 100%;
+      border-right: unset;
+      box-shadow: unset;
+
+      &:nth-of-type(2) {
+        border-left: unset;
+      }
+      &:nth-of-type(3) {
+        border-left: unset;
+      }
+
+      .skillsWrapper {
+        .skillBox {
+          p {
+            top: unset;
+            transform: unset;
+          }
         }
       }
     }
