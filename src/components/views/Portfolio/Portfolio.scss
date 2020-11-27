@@ -23,6 +23,7 @@
         text-decoration: none;
         transition: $transition;
         top: 100px;
+        z-index: 2;
 
         i {
           transform: scale(1.5);
@@ -76,8 +77,8 @@
 
     .projectTitle {
       position: absolute;
-      right: 200px;
-
+      right: 100px;
+      z-index: 1;
       transition: $transition;
       bottom: 26px;
       text-transform: uppercase;
@@ -93,6 +94,7 @@
       background: $clrLight;
       color: $clrDark;
       font-size: 20px;
+      font-size: 18px;
       width: 50%;
       height: 92px;
       transition: $transition;
@@ -133,7 +135,6 @@
           }
           &:last-of-type {
             flex-direction: row-reverse;
-
             left: -150px;
           }
         }
@@ -145,7 +146,7 @@
 
       .projectTitle {
         right: unset;
-        left: 200px;
+        left: 100px;
       }
 
       .desc {
@@ -220,6 +221,156 @@
       .desc {
         left: unset;
         right: -30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .portfolioContent {
+    .projectBox {
+      .boxLeft {
+        width: 80px;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        a {
+          color: $clrDark;
+          flex-direction: column;
+          height: 50%;
+          justify-content: center;
+          width: 100%;
+          position: unset;
+          text-decoration: none;
+          text-align: center;
+
+          i {
+            transform: unset;
+            width: unset;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 16px;
+            flex: 1;
+            display: unset;
+            opacity: 1;
+          }
+
+          &:first-of-type {
+            flex-direction: column;
+            right: 0;
+          }
+          &:last-of-type {
+            right: unset;
+            color: $clrDark;
+          }
+        }
+      }
+
+      img {
+        top: 0;
+
+        right: 0;
+        display: unset;
+        height: 80%;
+      }
+
+      .projectTitle {
+        right: 20px;
+        bottom: 14px;
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: unset;
+        width: unset;
+      }
+
+      .desc {
+        background: $clrDark;
+        color: $clrLight;
+        font-size: 16px;
+        width: 220px;
+        height: 100%;
+        position: unset;
+        padding: 4px;
+        :first-child {
+          height: 50%;
+        }
+        :last-child {
+          height: 50%;
+          opacity: 1;
+        }
+      }
+
+      &.even {
+        flex-direction: row;
+        .boxLeft {
+          a {
+            &:first-of-type {
+              flex-direction: column;
+              left: unset;
+            }
+            &:last-of-type {
+              flex-direction: column;
+              left: unset;
+            }
+          }
+        }
+
+        img {
+          left: unset;
+        }
+
+        .projectTitle {
+          right: 20px;
+          left: unset;
+        }
+
+        .desc {
+          right: unset;
+          :last-child {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .projectBox:hover {
+      img {
+        height: 80%;
+      }
+      .projectTitle {
+        right: 20px;
+      }
+
+      .desc {
+        height: 100%;
+        bottom: unset;
+        left: unset;
+        :last-child {
+          height: 50%;
+        }
+      }
+
+      &.even {
+        a {
+          &:first-of-type {
+            left: unset;
+          }
+          &:last-of-type {
+            left: unset;
+          }
+        }
+        img {
+          left: unset;
+        }
+
+        .projectTitle {
+          left: unset;
+          right: 20px;
+        }
       }
     }
   }
