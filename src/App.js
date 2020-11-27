@@ -1,5 +1,6 @@
 import About from "./components/views/About/About";
 import Home from "./components/views/Home/Home";
+import Portfolio from "./components/views/Portfolio/Portfolio";
 import Skills from "./components/views/Skills/Skills";
 
 const { default: Sidebar } = require("./components/features/Sidebar/Sidebar");
@@ -10,10 +11,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-
-      <section id='portfolio' className='pageSection'>
-        <section className='pageContent container'>portfolio</section>
-      </section>
+      <Portfolio />
       <section id='contact' className='pageSection'>
         <section className='pageContent container'>
           contact Lorem ipsum dolor sit amet consectetur adipisicing elit.
