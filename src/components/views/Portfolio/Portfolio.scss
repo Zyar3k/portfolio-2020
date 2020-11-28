@@ -68,11 +68,6 @@
       align-items: center;
       transition: $transition;
       height: 200px;
-      &:hover {
-        top: 0;
-        right: 0;
-        height: 328px;
-      }
     }
 
     .projectTitle {
@@ -270,7 +265,6 @@
 
       img {
         top: 0;
-
         right: 0;
         display: unset;
         height: 80%;
@@ -337,20 +331,191 @@
       }
     }
 
+    @media (min-height: 993px) {
+      .projectBox:hover {
+        img {
+          height: 80%;
+        }
+        .projectTitle {
+          right: 20px;
+        }
+
+        .desc {
+          height: 100%;
+          bottom: unset;
+          left: unset;
+          :last-child {
+            height: 50%;
+          }
+        }
+
+        &.even {
+          a {
+            &:first-of-type {
+              left: unset;
+            }
+            &:last-of-type {
+              left: unset;
+            }
+          }
+          img {
+            left: unset;
+          }
+
+          .projectTitle {
+            left: unset;
+            right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolioContent {
+    .projectBox {
+      margin: 20px 0;
+      border: 6px solid $clrLight;
+      height: 500px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      .boxLeft {
+        background: $clrLight;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: unset;
+        justify-content: space-between;
+        bottom: 0;
+        position: absolute;
+        padding-top: 6px;
+
+        a {
+          height: 40px;
+          color: $clrDark;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+
+          width: 44%;
+          text-decoration: none;
+
+          i {
+            font-size: 40px;
+          }
+
+          p {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+
+          &:first-of-type {
+            flex-direction: row-reverse;
+          }
+          &:last-of-type {
+            flex-direction: row;
+          }
+        }
+      }
+
+      img {
+        position: unset;
+        top: unset;
+        right: unset;
+        height: unset;
+        width: 100%;
+        min-height: 272px;
+      }
+
+      .projectTitle {
+        position: unset;
+        text-transform: uppercase;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50px;
+        background: $clrDark;
+        color: $clrLight;
+      }
+
+      .desc {
+        left: unset;
+        bottom: unset;
+        border: 10px solid $clrDark;
+        background: $clrLight;
+        color: $clrDark;
+        height: 116px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-transform: unset;
+        text-align: center;
+        :first-child {
+          height: 54px;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        :last-child {
+          height: 62px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      &.even {
+        flex-direction: column;
+        .boxLeft {
+          a {
+            height: 40px;
+            &:first-of-type {
+              flex-direction: row-reverse;
+            }
+            &:last-of-type {
+              flex-direction: row;
+            }
+          }
+        }
+
+        img {
+          height: unset;
+          min-height: 272px;
+        }
+
+        .desc {
+          height: 116px;
+        }
+      }
+    }
+
     .projectBox:hover {
       img {
-        height: 80%;
+        height: unset;
+        min-height: 272px;
       }
       .projectTitle {
         right: 20px;
       }
 
       .desc {
-        height: 100%;
+        height: 116px;
         bottom: unset;
         left: unset;
+        :first-child {
+          height: 54px;
+        }
         :last-child {
-          height: 50%;
+          height: 62px;
         }
       }
 
