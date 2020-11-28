@@ -14,9 +14,28 @@ nav {
     color: $clrGold;
     font-size: 30px;
     transition: $transition;
+    position: relative;
+    p {
+      position: absolute;
+      font-size: 16px;
+      left: -140%;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: $transition;
+    }
 
     &:hover {
       color: $clrGold-hover;
+    }
+  }
+
+  &:hover a {
+    // background: red;
+    p {
+      opacity: 1;
     }
   }
 }
