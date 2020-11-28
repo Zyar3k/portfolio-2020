@@ -24,8 +24,9 @@ nav {
       display: flex;
       justify-content: center;
       align-items: center;
+      font-weight: bold;
       opacity: 0;
-      transition: $transition;
+      // transition: $transition;
     }
 
     &:hover {

@@ -11,11 +11,21 @@ const Portfolio = () => {
       <section className='pageContent container portfolioContent'>
         <section className='projectBox odd'>
           <span className='boxLeft'>
-            <a href='#' className='linkWrapp git'>
+            <a
+              href='https://github.com/Zyar3k/online_shop_bcd'
+              target='_blank'
+              rel='noreferrer'
+              className='linkWrapp git'
+            >
               <i className='fab fa-github' />
               <p className='git'>kod</p>
             </a>
-            <a href='#' className='linkWrapp demo'>
+            <a
+              href='https://online-shop-bcd.herokuapp.com/'
+              className='linkWrapp demo'
+              target='_blank'
+              rel='noreferrer'
+            >
               <i className='fas fa-play-circle' />
               <p className='demo'>demo</p>
             </a>
@@ -34,11 +44,21 @@ const Portfolio = () => {
         </section>
         <section className='projectBox even'>
           <span className='boxLeft'>
-            <a href='#' className='linkWrapp git'>
+            <a
+              href='https://github.com/Zyar3k/your_chat_app/tree/master'
+              className='linkWrapp git'
+              target='_blank'
+              rel='noreferrer'
+            >
               <i className='fab fa-github' />
               <p className='git'>kod</p>
             </a>
-            <a href='#' className='linkWrapp demo'>
+            <a
+              href='https://youthful-clarke-0b8301.netlify.app/'
+              className='linkWrapp demo'
+              target='_blank'
+              rel='noreferrer'
+            >
               <i className='fas fa-play-circle' />
               <p className='demo'>demo</p>
             </a>
@@ -55,11 +75,21 @@ const Portfolio = () => {
         </section>
         <section className='projectBox odd'>
           <span className='boxLeft'>
-            <a href='#' className='linkWrapp git'>
+            <a
+              href='https://github.com/Zyar3k/numerology_4.0.0'
+              className='linkWrapp git'
+              target='_blank'
+              rel='noreferrer'
+            >
               <i className='fab fa-github' />
               <p className='git'>kod</p>
             </a>
-            <a href='#' className='linkWrapp demo'>
+            <a
+              href='https://numerologia.netlify.app/'
+              className='linkWrapp demo'
+              target='_blank'
+              rel='noreferrer'
+            >
               <i className='fas fa-play-circle' />
               <p className='demo'>demo</p>
             </a>
@@ -76,11 +106,21 @@ const Portfolio = () => {
         </section>
         <section className='projectBox even'>
           <span className='boxLeft'>
-            <a href='#' className='linkWrapp git'>
+            <a
+              href='https://github.com/Zyar3k/picture_shop'
+              className='linkWrapp git'
+              target='_blank'
+              rel='noreferrer'
+            >
               <i className='fab fa-github' />
               <p className='git'>kod</p>
             </a>
-            <a href='#' className='linkWrapp demo'>
+            <a
+              href='https://picture-shop.netlify.app/'
+              className='linkWrapp demo'
+              target='_blank'
+              rel='noreferrer'
+            >
               <i className='fas fa-play-circle' />
               <p className='demo'>demo</p>
             </a>

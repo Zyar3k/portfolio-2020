@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  // border: 1px dotted red;
+  border: 1px dotted red;
   margin: 0 auto;
   max-width: 1280px;
 }
@@ -25,7 +25,7 @@ section.pageSection {
   padding: 0 60px;
   min-height: 100vh;
   position: relative;
-  // border: 1px solid blue;
+  border: 1px solid blue;
 
   &:nth-of-type(2),
   &:nth-of-type(4) {
@@ -34,7 +34,6 @@ section.pageSection {
   }
 
   section.pageContent {
-    // border: 1px dotted red;
     min-height: 100vh;
     padding: 20px;
   }
