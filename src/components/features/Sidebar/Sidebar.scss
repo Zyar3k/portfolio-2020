@@ -4,6 +4,7 @@ nav {
   height: 300px;
   display: flex;
   flex-direction: column;
+  z-index: 10;
   a {
     display: flex;
     justify-content: center;
@@ -47,5 +48,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    a {
+      p {
+        display: none;
+      }
+    }
   }
 }
