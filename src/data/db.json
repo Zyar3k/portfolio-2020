@@ -1,0 +1,227 @@
+{
+  "about": [
+    {
+      "text":
+        "Nazywam się Arkadiusz Zygan. W 2019 roku postanowiłem usystematyzować wiedzę z zakresu  kodowania i programowania. Na przestrzeni lat interesowałem się nowymi technologiami, jednak nie uzyskałem pełnej wiedzy teoretycznej, jak i nie zrealizowałem praktycznych projektów. Postanowiłem to zmienić. Od tamtego czasu systematycznie uczę się programowania po stronie front-endu z elementami back-endu.",
+        "icon": "fas fa-laptop-code"
+    },
+    {
+      "text":
+      "Ukończyłem intensywny 9-miesięczny kurs programowania pod opieką indywidualnego mentora – Bootcamp Web Developer Plus w Kodilla. Uczestniczyłem również w szkoleniach rozszerzających moje umiejętności na platformie Udemy z zakresu javascript, react i data science. Na bieżąco obserwuje zmiany w trendach, posiłkując się wieloma kanałami tematycznymi na youtube (m.in. Dev Ed - bardzo duża wiedza i zaraźliwy optymizm autora, Web Dev Simplified - 'kopalnia' wiedzy, DesignCourse - fachowo i konkretnie na temat designu).",
+      "icon": "fab fa-leanpub"
+    },
+    {
+
+      "text":
+        "\"Praktyka czyni mistrza\" - każdy z nas to słyszał chociaż raz w swoim życiu. Zgadzam się, ale uważam, że trzeba dodać \"świadome ćwiczenie\" - termin ten wykuł Anders Erics­son. Uważa on również, że aby osiągnąć wysoki poziom w dowolnej dziedzinie potrzeba nawet 10000 godzin. Zdaję sobię sprawę, że wciąż dużo pracy przede mną. Ćwiczę i rozwijam swoje umiejętności w javascript, react, html5 oraz css/sass. Wiem, że jestem na początku tej drogi, ale jestem zmotywowany, aby stawiać kolejne kroki.",
+        "icon": "fas fa-infinity"
+    }
+  ],
+  "contact": [
+    {
+      "icon": "fas fa-file-pdf",
+      "title": "CURRICULUM VITAE",
+      "cvPl":
+        "https://drive.google.com/file/d/1d2C9pub8Kvj9UCHmJDoG0_JCUtyKupmu/view",
+      "cvEng": "https://drive.google.com/open?id=1sixNne4mGrT94aVRdj6vGBRf9OMkvZHp",
+      "img1": "./images/pin_pl.png",
+      "img2": "./images/pin_uk.png",
+      "classBtn": "cvBtn"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "title": "LINKEDIN",
+      "link": "https://www.linkedin.com/in/arkadiusz-zygan/"
+    },
+    {
+      "icon": "fab fa-github",
+      "title": "GITHUB",
+      "link": "https://github.com/Zyar3k"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "title": "GMAIL",
+      "link": "mailto:a.zygan@gmail.com"
+    }
+  ],
+  "home":[
+    {
+      "name": "ZYGAN AREK",
+      "job": "Frontend Developer"
+    }
+  ],
+  "sidebar":[
+    {
+      "navLinks": [
+        {
+          "link": "#start",
+          "name": "Start",
+          "icon": "far fa-star"
+        },
+        {
+          "link": "#about",
+          "name": "O mnie",
+          "icon": "far fa-address-card"
+        },
+        {
+          "link": "#skills",
+          "name": "Umiejętności",
+          "icon": "fas fa-star-half-alt"
+        },
+        {
+          "link": "#portfolio",
+          "name": "Portfolio",
+          "icon": "fas fa-briefcase"
+        },
+        {
+          "link": "#contact",
+          "name": "Kontakt",
+          "icon": "fas fa-envelope"
+        }
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Betty Craft Designs",
+      "img": "./images/bcd.png",
+      "code": "https://github.com/Zyar3k/online_shop_bcd",
+      "demo": "https://online-shop-bcd.herokuapp.com/",
+      "desc1": "Indywidualny projekt na zakończenie Bootcampu Web Developer Plus",
+      "desc2":
+        "Tech stack: MERN - MongoDB, Express, React (Redux, Router), Node.js | Sass | CRA - webpack | npm | Yarn"
+    },
+    {
+      "name": "Cz@-App",
+      "img": "./images/czatap_port.png",
+      "code": "https://github.com/Zyar3k/your_chat_app/tree/master",
+      "demo": "https://youthful-clarke-0b8301.netlify.app/",
+      "desc1": "Aplikacja czatowa w czasie rzeczywistym",
+      "desc2":
+        "Tech stack: HTML | Sass | RWD | React | Express | Node | Socket.IO | CRA- webpack | git | Yarn"
+    },
+    {
+      "name": "numerologia",
+      "img": "./images/Numerologia.png",
+      "code": "https://github.com/Zyar3k/numerology_4.0.0",
+      "demo": "https://numerologia.netlify.app/",
+      "desc1":
+        "poznaj swoje specjalne liczby i sprawdź wibracje numerologiczne na dowolny dzień/miesiąc",
+      "desc2": "Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts"
+    },
+    {
+      "name": "Do zrobienia!",
+      "img": "./images/toDoApp.png",
+      "code": "https://github.com/Zyar3k/todo_react_app",
+      "demo": "https://dozrobienia-app.netlify.app/",
+      "desc1":
+        "Aplikacja ToDo - aplikacja stworzona w React. Priorytety i ukończone zadania",
+      "desc2":
+        "Tech stack: HTML | Sass | RWD | React | CRA- webpack | git | Yarn"
+    },
+    {
+      "name": "Aplikacja pogodowa",
+      "img": "./images/local_weather.jpg",
+      "code": "https://github.com/Zyar3k/local_weather_app",
+      "demo": "https://agitated-aryabhata-cef99e.netlify.app/",
+      "desc1":
+        "Aplikacja pogodowa z użyciem API - wyświetlająca aktualną pogodę w szukanym mieście",
+      "desc2":
+        "Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | Yarn"
+    },
+    {
+      "name": "kamień - papier - nożyce",
+      "img": "./images/rps.png",
+      "code": "https://github.com/Zyar3k/rock-paper-scissors",
+      "demo": "https://zyar3k.github.io/rock-paper-scissors/",
+      "desc1": "Pierwsza gra napisana w JavaScript wyświetlająca wynik rozgrywki",
+      "desc2": "Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts"
+    },
+    {
+      "name": "panel administracyjny",
+      "img": "./images/panel_adm.png",
+      "code": "https://github.com/Zyar3k/Solo-project",
+      "demo": "https://zyar3k.github.io/Solo-project/#",
+      "desc1":
+        "Pierwszy indywidualny projekt na podstawie pliku PSD od grafika",
+      "desc2":
+        "Tech stack: HTML | Sass | RWD | JavaScript ES5 | Photoshop | npm Scripts"
+    },
+    {
+      "name": "picture shop",
+      "img": "./images/Picture_shop.png",
+      "code": "https://github.com/Zyar3k/picture_shop",
+      "demo": "https://picture-shop.netlify.app/",
+      "desc1":
+        "Strona z elementami portfolio fotografa. Działający koszyk i zwalidowany formularz wiadomości",
+      "desc2": "Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts"
+    }
+  ],
+  "skills": [
+    {
+      "frontTitle": {
+        "title": "Frontend"
+      },
+      "backTitle": {
+        "title": "Backend"
+      },
+      "toolsTitle": {
+        "title": "Narzędzia"
+      },
+      "frontContent": [
+        {
+          "icon": "fab fa-html5",
+          "name": "HTML5"
+        },
+        {
+          "icon": "fab fa-css3",
+          "name": "CSS"
+        },
+        {
+          "icon": "fab fa-sass",
+          "name": "Sass"
+        },
+        {
+          "icon": "fab fa-bootstrap",
+          "name": "Bootstrap"
+        },
+        {
+          "icon": "fab fa-js",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "fab fa-react",
+          "name": "React+Redux"
+        }
+      ],
+      "backContent": [
+        {
+          "icon": "fab fa-node",
+          "name": "Node.js - Express"
+        },
+        {
+          "icon": "fab fa-mdb",
+          "name": "MongoDB"
+        }
+      ],
+      "toolsContent": [
+        {
+          "icon": "fab fa-git-alt",
+          "name": "git"
+        },
+        {
+          "icon": "fab fa-npm",
+          "name": "npm"
+        },
+        {
+          "icon": "fab fa-yarn",
+          "name": "yarn"
+        },
+        {
+          "icon": "fab fa-jira",
+          "name": "Jira"
+        }
+      ]
+    }
+  ]
+}
