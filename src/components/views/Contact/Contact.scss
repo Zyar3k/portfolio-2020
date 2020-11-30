@@ -134,6 +134,7 @@
       height: 200px;
       .icoWrapper {
         background: unset;
+        z-index: unset;
         i {
           display: flex;
           justify-content: center;
@@ -143,6 +144,7 @@
           color: $clrLight;
           transform: unset;
           transition: unset;
+          z-index: unset;
         }
       }
       .contentWrapper {
@@ -209,6 +211,11 @@
         h2 {
           font-size: 22px;
         }
+        .imgWrapper {
+          img {
+            height: 30px;
+          }
+        }
 
         a {
           p {
@@ -228,12 +235,6 @@
       .contentWrapper {
         h2 {
           font-size: 16px;
-        }
-
-        .imgWrapper {
-          img {
-            height: 30px;
-          }
         }
       }
     }

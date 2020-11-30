@@ -16,7 +16,6 @@ body {
 }
 
 .container {
-  // border: 1px dotted red;
   margin: 0 auto;
   max-width: 1280px;
 }
@@ -25,7 +24,6 @@ section.pageSection {
   padding: 0 60px;
   min-height: 100vh;
   position: relative;
-  border: 1px solid blue;
 
   &:nth-of-type(2),
   &:nth-of-type(4) {
@@ -44,10 +42,10 @@ aside {
   top: 50%;
   transform: translateY(-50%);
   right: 0;
+  z-index: 100;
 }
 
 .btnNext {
-  // background: red;
   position: absolute;
   bottom: 10%;
   left: 50%;
@@ -64,8 +62,6 @@ aside {
 
 @media (max-width: 992px) {
   .container {
-    // border: 1px dotted red;
-    // margin: 0 auto;
     max-width: 100%;
   }
 
@@ -82,7 +78,6 @@ aside {
 @media (max-width: 700px) {
   section.pageSection {
     padding: 0;
-    // border: 1px solid blue;
 
     &:nth-last-of-type(1) {
       padding-bottom: 60px;

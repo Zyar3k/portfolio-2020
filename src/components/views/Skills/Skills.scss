@@ -176,13 +176,13 @@
           position: unset;
           i {
             background: $clrLight;
-            border-left: 12px solid $clrDark;
+            border-left: 20px solid $clrDark;
             border-top: 6px solid $clrDark;
             border-bottom: 6px solid $clrDark;
             z-index: 0;
             height: unset;
             width: 30%;
-            padding: 30px;
+            padding: 6px;
             &.fa-html5 {
               color: #f16529;
             }
