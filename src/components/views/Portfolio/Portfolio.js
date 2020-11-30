@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio' className='pageSection'>
       <section className='pageContent container portfolioContent'>
-        <section className='projectBox odd'>
+        <section className='projectBox'>
           <span className='boxLeft'>
             <a
               href='https://github.com/Zyar3k/online_shop_bcd'
@@ -42,7 +42,7 @@ const Portfolio = () => {
             </p>
           </div>
         </section>
-        <section className='projectBox even'>
+        <section className='projectBox'>
           <span className='boxLeft'>
             <a
               href='https://github.com/Zyar3k/your_chat_app/tree/master'
@@ -73,7 +73,7 @@ const Portfolio = () => {
             </p>
           </div>
         </section>
-        <section className='projectBox odd'>
+        <section className='projectBox'>
           <span className='boxLeft'>
             <a
               href='https://github.com/Zyar3k/numerology_4.0.0'
@@ -98,13 +98,13 @@ const Portfolio = () => {
           <img src={img3} alt='' />
           <div className='desc'>
             <p>
-              aplikacja pozwalająca poznać swoje specjalne liczby i sprawdzić
-              wibracje numerologiczne na dwoolny dzień/miesiąc
+              poznaj swoje specjalne liczby i sprawdź wibracje numerologiczne na
+              dowolny dzień/miesiąc
             </p>
             <p>tech stack: html | sass | rwd | javascript es5 | npm scripts.</p>
           </div>
         </section>
-        <section className='projectBox even'>
+        <section className='projectBox'>
           <span className='boxLeft'>
             <a
               href='https://github.com/Zyar3k/picture_shop'

@@ -14,8 +14,9 @@ const About = () => {
               usystematyzować wiedzę z zakresu kodowania i programowania. Na
               przestrzeni lat interesowałem się nowymi technologiami, jednak nie
               uzyskałem pełnej wiedzy teoretycznej, jak i nie zrealizowałem
-              praktycznych projektów. Od tamtego czasu systematycznie uczę się
-              programowania po stronie front-endu z elementami back-endu.
+              praktycznych projektów. Postanowiłem to zmienić. Od tamtego czasu
+              systematycznie uczę się programowania po stronie front-endu z
+              elementami back-endu.
             </p>
           </section>
           <section className='aboutSection'>
@@ -24,9 +25,9 @@ const About = () => {
             </span>
             <p>
               Ukończyłem intensywny 9-miesięczny kurs programowania pod opieką
-              indywidualnego mentora – bootcamp web developer plus w Kodilla.
+              indywidualnego mentora – Bootcamp Web Developer Plus w Kodilla.
               Uczestniczyłem również w szkoleniach rozszerzających moje
-              umiejętności na platformie udemy z zakresu javascript, react i
+              umiejętności na platformie Udemy z zakresu javascript, react i
               data science. Na bieżąco obserwuje zmiany w trendach, posiłkując
               się wieloma kanałami tematycznymi na youtube (m.in. Dev Ed -
               bardzo duża wiedza i zaraźliwy optymizm autora, Web Dev Simplified
@@ -39,9 +40,9 @@ const About = () => {
               <i className='fas fa-infinity' />
             </span>
             <p>
-              'praktyka czyni mistrza' - każdy z nas to słyszał chociaż raz w
+              'Praktyka czyni mistrza' - każdy z nas to słyszał chociaż raz w
               swoim życiu. Zgadzam się, ale uważam, że trzeba dodać 'świadome
-              ćwiczenie' - termin ten wykuł anders erics­son. Uważa on również,
+              ćwiczenie' - termin ten wykuł Anders Erics­son. Uważa on również,
               że aby osiągnąć wysoki poziom w dowolnej dziedzinie potrzeba nawet
               10000 godzin. Zdaję sobię sprawę, że wciąż dużo pracy przede mną.
               Ćwiczę i rozwijam swoje umiejętności w javascript, react, html5

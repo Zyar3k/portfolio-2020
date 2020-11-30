@@ -16,12 +16,11 @@
       margin: 40px 0;
       min-height: 180px;
 
-      &:nth-of-type(1),
-      &:nth-of-type(3) {
+      &:nth-of-type(odd) {
         border-left: none;
       }
 
-      &:nth-of-type(2) {
+      &:nth-of-type(even) {
         border-right: none;
         flex-direction: row-reverse;
       }
@@ -89,12 +88,11 @@
       .aboutSection {
         flex-direction: column;
 
-        &:nth-of-type(1),
-        &:nth-of-type(3) {
+        &:nth-of-type(even) {
           border-left: 6px solid $clrLight;
         }
 
-        &:nth-of-type(2) {
+        &:nth-of-type(odd) {
           border-right: 6px solid $clrLight;
           flex-direction: column;
         }

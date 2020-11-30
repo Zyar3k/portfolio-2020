@@ -83,8 +83,7 @@
       }
     }
 
-    &:nth-of-type(2),
-    &:nth-of-type(4) {
+    &:nth-of-type(even) {
       flex-direction: row-reverse;
       i {
         font-size: 80px;
@@ -176,8 +175,7 @@
         }
       }
 
-      &:nth-of-type(2),
-      &:nth-of-type(4) {
+      &:nth-of-type(even) {
         i {
           transform: unset;
         }

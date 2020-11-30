@@ -119,7 +119,7 @@
       }
     }
 
-    &.even {
+    &:nth-of-type(even) {
       flex-direction: row-reverse;
       .boxLeft {
         a {
@@ -195,7 +195,7 @@
       }
     }
 
-    &.even {
+    &:nth-of-type(even) {
       a {
         &:first-of-type {
           left: 0;
@@ -349,7 +349,7 @@
           }
         }
 
-        &.even {
+        &:nth-of-type(even) {
           a {
             &:first-of-type {
               left: unset;
@@ -459,6 +459,7 @@
         justify-content: space-between;
         text-transform: unset;
         text-align: center;
+        font-size: 14px;
         :first-child {
           height: 54px;
           font-weight: bold;
@@ -474,7 +475,7 @@
         }
       }
 
-      &.even {
+      &:nth-of-type(even) {
         flex-direction: column;
         .boxLeft {
           a {
