@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio_ver.9/static/css/main.ca212f24.chunk.css",
-    "main.js": "/portfolio_ver.9/static/js/main.e639c644.chunk.js",
-    "main.js.map": "/portfolio_ver.9/static/js/main.e639c644.chunk.js.map",
+    "main.css": "/portfolio_ver.9/static/css/main.c9f64382.chunk.css",
+    "main.js": "/portfolio_ver.9/static/js/main.c0286ec2.chunk.js",
+    "main.js.map": "/portfolio_ver.9/static/js/main.c0286ec2.chunk.js.map",
     "runtime-main.js": "/portfolio_ver.9/static/js/runtime-main.52c22c6b.js",
     "runtime-main.js.map": "/portfolio_ver.9/static/js/runtime-main.52c22c6b.js.map",
     "static/js/2.303af39a.chunk.js": "/portfolio_ver.9/static/js/2.303af39a.chunk.js",
     "static/js/2.303af39a.chunk.js.map": "/portfolio_ver.9/static/js/2.303af39a.chunk.js.map",
     "index.html": "/portfolio_ver.9/index.html",
-    "static/css/main.ca212f24.chunk.css.map": "/portfolio_ver.9/static/css/main.ca212f24.chunk.css.map",
+    "static/css/main.c9f64382.chunk.css.map": "/portfolio_ver.9/static/css/main.c9f64382.chunk.css.map",
     "static/js/2.303af39a.chunk.js.LICENSE.txt": "/portfolio_ver.9/static/js/2.303af39a.chunk.js.LICENSE.txt",
     "static/media/Numerologia.8552b7d2.png": "/portfolio_ver.9/static/media/Numerologia.8552b7d2.png",
     "static/media/Picture_shop.c7989b2d.png": "/portfolio_ver.9/static/media/Picture_shop.c7989b2d.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.52c22c6b.js",
     "static/js/2.303af39a.chunk.js",
-    "static/css/main.ca212f24.chunk.css",
-    "static/js/main.e639c644.chunk.js"
+    "static/css/main.c9f64382.chunk.css",
+    "static/js/main.c0286ec2.chunk.js"
   ]
 }
