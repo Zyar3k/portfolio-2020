@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_ver.9/static/css/main.dcb1c384.chunk.css",
-    "main.js": "/portfolio_ver.9/static/js/main.40c1bf6b.chunk.js",
-    "main.js.map": "/portfolio_ver.9/static/js/main.40c1bf6b.chunk.js.map",
+    "main.css": "/portfolio_ver.9/static/css/main.402d2395.chunk.css",
+    "main.js": "/portfolio_ver.9/static/js/main.f9307c83.chunk.js",
+    "main.js.map": "/portfolio_ver.9/static/js/main.f9307c83.chunk.js.map",
     "runtime-main.js": "/portfolio_ver.9/static/js/runtime-main.52c22c6b.js",
     "runtime-main.js.map": "/portfolio_ver.9/static/js/runtime-main.52c22c6b.js.map",
-    "static/js/2.303af39a.chunk.js": "/portfolio_ver.9/static/js/2.303af39a.chunk.js",
-    "static/js/2.303af39a.chunk.js.map": "/portfolio_ver.9/static/js/2.303af39a.chunk.js.map",
+    "static/js/2.720420df.chunk.js": "/portfolio_ver.9/static/js/2.720420df.chunk.js",
+    "static/js/2.720420df.chunk.js.map": "/portfolio_ver.9/static/js/2.720420df.chunk.js.map",
     "index.html": "/portfolio_ver.9/index.html",
-    "static/css/main.dcb1c384.chunk.css.map": "/portfolio_ver.9/static/css/main.dcb1c384.chunk.css.map",
-    "static/js/2.303af39a.chunk.js.LICENSE.txt": "/portfolio_ver.9/static/js/2.303af39a.chunk.js.LICENSE.txt",
-    "static/media/Numerologia.8552b7d2.png": "/portfolio_ver.9/static/media/Numerologia.8552b7d2.png",
-    "static/media/Picture_shop.c7989b2d.png": "/portfolio_ver.9/static/media/Picture_shop.c7989b2d.png",
-    "static/media/bcd.0273e508.png": "/portfolio_ver.9/static/media/bcd.0273e508.png",
-    "static/media/czatap_port.778ddc9f.png": "/portfolio_ver.9/static/media/czatap_port.778ddc9f.png",
+    "static/css/main.402d2395.chunk.css.map": "/portfolio_ver.9/static/css/main.402d2395.chunk.css.map",
+    "static/js/2.720420df.chunk.js.LICENSE.txt": "/portfolio_ver.9/static/js/2.720420df.chunk.js.LICENSE.txt",
     "static/media/pin_pl.c457f42c.png": "/portfolio_ver.9/static/media/pin_pl.c457f42c.png",
     "static/media/pin_uk.0af1eb3a.png": "/portfolio_ver.9/static/media/pin_uk.0af1eb3a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.52c22c6b.js",
-    "static/js/2.303af39a.chunk.js",
-    "static/css/main.dcb1c384.chunk.css",
-    "static/js/main.40c1bf6b.chunk.js"
+    "static/js/2.720420df.chunk.js",
+    "static/css/main.402d2395.chunk.css",
+    "static/js/main.f9307c83.chunk.js"
   ]
 }
