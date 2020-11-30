@@ -56,3 +56,15 @@
     }
   }
 }
+
+@media (max-width: 400px) {
+  .homeContent {
+    main {
+      margin-top: 0;
+
+      h1 {
+        font-size: 70px;
+      }
+    }
+  }
+}
