@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca212f24.chunk.css",
+    "main.js": "/static/js/main.e639c644.chunk.js",
+    "main.js.map": "/static/js/main.e639c644.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d3e85e8a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d3e85e8a.js.map",
+    "static/js/2.303af39a.chunk.js": "/static/js/2.303af39a.chunk.js",
+    "static/js/2.303af39a.chunk.js.map": "/static/js/2.303af39a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ca212f24.chunk.css.map": "/static/css/main.ca212f24.chunk.css.map",
+    "static/js/2.303af39a.chunk.js.LICENSE.txt": "/static/js/2.303af39a.chunk.js.LICENSE.txt",
+    "static/media/Numerologia.8552b7d2.png": "/static/media/Numerologia.8552b7d2.png",
+    "static/media/Picture_shop.c7989b2d.png": "/static/media/Picture_shop.c7989b2d.png",
+    "static/media/bcd.0273e508.png": "/static/media/bcd.0273e508.png",
+    "static/media/czatap_port.778ddc9f.png": "/static/media/czatap_port.778ddc9f.png",
+    "static/media/pin_pl.c457f42c.png": "/static/media/pin_pl.c457f42c.png",
+    "static/media/pin_uk.0af1eb3a.png": "/static/media/pin_uk.0af1eb3a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3e85e8a.js",
+    "static/js/2.303af39a.chunk.js",
+    "static/css/main.ca212f24.chunk.css",
+    "static/js/main.e639c644.chunk.js"
+  ]
+}
